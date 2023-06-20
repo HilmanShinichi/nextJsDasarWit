@@ -16,5 +16,6 @@
     ],
     "rules": {
         "react/jsx-filename-extension": [2, { "extensions": [".tsx", ".ts", ".jsx,", ".js"] }]
+        
     }
 }

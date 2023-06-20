@@ -1,8 +1,14 @@
-
-import styles from '../app/page.module.css'
+import RootLayout from "../app/layout";
+import Header from "../components/Header";
+import style from '../styles/home.module.css'
 
 export default function Home() {
   return (
-<div>imagetea</div>
-  )
+    <RootLayout>
+    
+    <Header/>
+      <h1 className={style['title-homepage']}>Welcome Mufid</h1>
+     
+      </RootLayout>
+  );
 }

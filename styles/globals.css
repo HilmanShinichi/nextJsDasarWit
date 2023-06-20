@@ -1,0 +1,16 @@
+html,
+body {
+  padding:0;
+  margin:0;
+  max-width:1400px;
+  margin:auto;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+
+.title2{
+  color: red;
+}
