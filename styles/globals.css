@@ -19,3 +19,8 @@ body {
 #__next {
   height: 100%;
 }
+
+.notfound__h1{
+  color: gray;
+  text-align: center;
+}
