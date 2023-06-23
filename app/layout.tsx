@@ -15,7 +15,9 @@ export default function RootLayout(props: any) {
   </Head>
   <div className={style.container}>
     <Header/>
-    <div className={style.content}>{children}</div>
+    <div className={style.content}>
+      {children}
+      </div>
     <Footer/>
     </div>;
     </>
